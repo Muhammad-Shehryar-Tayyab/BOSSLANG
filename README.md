@@ -37,7 +37,7 @@ bye boss
 <h4 align="left">Run</h4>
 
 ```
-bhailang test.boss
+bosslang test.boss
 ```
 
 <h4 align="left">Output</h4>
