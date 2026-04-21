@@ -1,0 +1,57 @@
+{
+  "name": "bhailang",
+  "version": "0.1.0",
+  "description": "CLI for boss-lang",
+  "source": "src/index.ts",
+  "main": "bin/index.js",
+  "bin": {
+    "bhailang": "./bin/index.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "dev": "tsup src/* --dts --outDir bin --watch",
+    "build": "tsup src/* --dts --outDir bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DulLabs/boss-lang.git"
+  },
+  "keywords": [
+    "programming",
+    "language",
+    "boss-lang",
+    "bl",
+    "javascript",
+    "typescript"
+  ],
+  "contributors": [
+    {
+      "name": "Aniket Singh",
+      "url": "https://github.com/aniketsingh0104"
+    },
+    {
+      "name": "Rishabh Tripathi",
+      "url": "https://github.com/ristri"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DulLabs/boss-lang/issues"
+  },
+  "homepage": "https://github.com/DulLabs/boss-lang#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-jest": "^27.1.2",
+    "tsup": "^5.11.11",
+    "jest": "^27.4.5",
+    "yargs": "^17.3.1",
+    "chalk": "^5.0.0",
+    "@types/jest": "^27.4.0",
+    "config": "*",
+    "tsconfig": "*",
+    "boss-lang-interpreter": "*"
+  }
+}
+

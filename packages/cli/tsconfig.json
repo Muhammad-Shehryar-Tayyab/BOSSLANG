@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "boss-lang-interpreter": ["../interpreter/src/index.ts"]
+    }
+  },
+  "include": [ "**/*.ts" ],
+  "exclude": ["node_modules", "bin"]
+}

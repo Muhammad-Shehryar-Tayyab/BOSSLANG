@@ -1,0 +1,42 @@
+{
+  "name": "boss-lang-interpreter",
+  "version": "0.0.1",
+  "description": "Interpreter for boss-lang",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "dev": "tsup src/* --dts --watch",
+    "build": "tsup src/* --dts",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DulLabs/boss-lang.git"
+  },
+  "keywords": [
+    "programming",
+    "language",
+    "boss-lang",
+    "bl",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DulLabs/boss-lang/issues"
+  },
+  "homepage": "https://github.com/DulLabs/boss-lang#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-jest": "^27.1.2",
+    "tsup": "^5.11.11",
+    "jest": "^27.4.5",
+    "@types/jest": "^27.4.0",
+    "config": "*",
+    "tsconfig": "*",
+    "boss-lang-parser": "*"
+  }
+}
+
