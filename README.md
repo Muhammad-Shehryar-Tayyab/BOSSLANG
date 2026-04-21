@@ -13,11 +13,11 @@
 </p>
 <br>
 
-<h2 align="center">Installation</h2>
+<!-- <h2 align="center">Installation</h2>
 
 ```
 npm i -g bhailang
-```
+``` -->
 
 <h2 align="center">Usage</h2>
 
@@ -110,7 +110,7 @@ bye boss
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Bhailang supports if-else-if ladder construct , <code>agar boss</code> block will execute if condition is <code>sahi</code>, otherwise one of the subsequently added <code>nahi to boss</code> blocks will execute if their respective condition is <code>sahi</code>, and the <code>warna boss</code> block will eventually execute if all of the above conditions are <code>galat</code>
+<p align="center">Bosslang supports if-else-if ladder construct , <code>agar boss</code> block will execute if condition is <code>sahi</code>, otherwise one of the subsequently added <code>nahi to boss</code> blocks will execute if their respective condition is <code>sahi</code>, and the <code>warna boss</code> block will eventually execute if all of the above conditions are <code>galat</code>
 
 ```
 
@@ -150,7 +150,7 @@ bye boss
 ```
 
 <h2 align="center">Development</h2>
-<p align="center">You can explore abstract syntax tree(AST) of bhailang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
+<p align="center">You can explore abstract syntax tree(AST) of bosslang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
 
 
 
