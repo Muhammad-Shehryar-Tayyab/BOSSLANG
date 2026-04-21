@@ -20,7 +20,7 @@ RUN npm install
 COPY . .
 
 # Build the project using Turbo
-RUN npx turbo run build --filter=boss-lang-docs
+RUN npm run build -- --filter=boss-lang-docs
 
 # Production image, copy all the files and run next
 FROM node:18-alpine AS runner
@@ -45,5 +45,5 @@ USER nextjs
 
 EXPOSE 8080
 
-# Start the application
-CMD ["npm", "start"]
+# Start the application on the port provided by Cloud Run
+CMD ["sh", "-c", "npm start -- -p ${PORT:-8080}"]
